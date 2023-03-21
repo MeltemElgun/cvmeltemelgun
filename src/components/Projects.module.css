@@ -1,0 +1,124 @@
+.cardA {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+
+  border-radius: 12px;
+  max-width: 31.25rem;
+  height: 41.8rem;
+  padding-left: 2.8rem;
+  padding-top: 2.96rem;
+}
+
+.head {
+  font-size: 29px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-bottom: 1.1rem;
+  padding-left: 0.15rem;
+}
+.textA {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  padding-bottom: 1.7rem;
+  max-width: 23rem;
+}
+
+.spanA {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 9px;
+  max-width: 28rem;
+  flex-wrap: wrap;
+  padding-bottom: 2.2rem;
+}
+
+.spanA span {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 20px 10px;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 76px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.spanA span:hover {
+  background-color: #fffdfd6c;
+  color: #3c3c3c;
+}
+.cardA a {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  text-decoration: none;
+}
+.a {
+  padding-right: 9.6rem;
+  padding-left: 0.11rem;
+  padding-top: 2rem;
+}
+
+a:hover {
+  color: #620c0c6f;
+}
+.img {
+  margin-left: -2.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cardA {
+    max-width: 26rem;
+    padding-left: 1rem;
+    max-width: inherit;
+    margin-left: 2rem;
+  }
+
+  .a {
+    padding-right: 7rem;
+  }
+
+  .p {
+    padding: 5.5rem 0rem 2.25rem 0rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cardA {
+    max-width: 26rem;
+    padding-left: 1rem;
+  }
+  .a {
+    padding-right: 7rem;
+  }
+  .img {
+    width: 29rem;
+    margin-top: -1.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .img {
+    width: 22.4rem;
+  }
+  .cardA {
+    max-width: 26rem;
+    padding-left: 1rem;
+  }
+  .a {
+    padding-right: 2rem;
+  }
+}
