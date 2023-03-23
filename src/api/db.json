@@ -2,8 +2,8 @@
   "projects": [
     {
       "id": 1,
-      "name": "Movies",
-      "description": "Bu projede, küçük bir film veritabanı içeren bir web uygulaması yapıldı. Hem mevcut tüm state ve action oluşturucuları kullanıldı, hem de sıfırdan reducer/redux pairing'leri oluşturuldu.",
+      "name": "What's your favorite movie ?",
+      "description": "In an application containing popular movies, you can save what you want to watch as favorites and remove them from your list after watching. Can add new movies.",
       "relative": ["react", "redux", "router", "axios", "vercel"],
       "img": "img-1.png",
       "className": "3.8rem",
@@ -13,8 +13,8 @@
     },
     {
       "id": 2,
-      "name": "Minnet günlügü",
-      "description": "Bu projede, `redux` özellikleri, `redux thunk` middleware'i ve `localStorage` ile bir Minnet günlüğü yapıldı.",
+      "name": "What is a Gratitude Journal?",
+      "description": "Write the things you're grateful for on a daily basis. If you are determined to be green or find it easier to do things digitally, this app is for you!",
       "relative": [
         "react",
         "router",
