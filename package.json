@@ -16,6 +16,7 @@
   "scripts": {
     "server": "json-server --watch src/api/db.json",
     "start": "react-scripts start",
+    "meltem": "react-scripts start && json-server --watch src/api/db.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -11,7 +11,7 @@ function App() {
   console.log(projects);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/projects")
+      .get("https://cvmeltemelgun-backend.vercel.app/projects")
       .then((res) => {
         if (res.status === 200) {
           setProjects(res.data);
